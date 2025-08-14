@@ -62,7 +62,7 @@ static inline uint8_t luminance(const unsigned char* p, int channels) {
 }
 
 int main(int argc, char** argv) {
-    std::string path = "PUT_YOUR_PATH_HERE";
+    std::string path = "PUT_YOUR_IMAGE_PATH_HERE.png";
     if (argc > 1) path = argv[1];
 
     int width = 0, height = 0, channels = 0;
